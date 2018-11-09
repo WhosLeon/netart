@@ -1,10 +1,10 @@
 
 
 function windowResized(){
-resizeCanvas(windowWidth,900);
+resizeCanvas(windowWidth,700);
 }
 function setup() {
-createCanvas(windowWidth,900);
+createCanvas(windowWidth,700);
 
 
 }
@@ -14,13 +14,15 @@ function draw(){
 fill(147,112,219);
 ellipse(mouseX,mouseY,10,10);}
 
+if (keyIsPressed === true) {
+    fill(0);
 
 
 push();
  translate(20,35);
  fill(255);
 star(mouseX,mouseY,7,18,5);
-pop();
+pop();}
 
 }
 
