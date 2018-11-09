@@ -1,10 +1,10 @@
 
 
 function windowResized(){
-resizeCanvas(windowWidth,800);
+resizeCanvas(windowWidth,900);
 }
 function setup() {
-createCanvas(windowWidth,500);
+createCanvas(windowWidth,900);
 
 
 }
